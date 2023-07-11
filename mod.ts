@@ -1,4 +1,4 @@
-export function sayHello(to) {
+export function sayHello(to: string) {
   return "Hello World" + to;
 }
 
