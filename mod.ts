@@ -1,5 +1,5 @@
-export function sayHello() {
-  return "Hello World";
+export function sayHello(to) {
+  return "Hello World" + to;
 }
 
-sayHello();
+sayHello("From codespace");
